@@ -1,0 +1,39 @@
+#root {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+.card-container {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+.card-container li {
+
+  border-style: solid;
+  border-color: #999;
+}
+
+main {
+  width: 100%;
+}
+
+.search {
+  margin-bottom: 5px;
+}
+
+.form {
+  margin-bottom: 55px;
+}
+
+
+
+
